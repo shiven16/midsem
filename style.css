@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(161, 151, 151);
+}
+
+.puzzle {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    justify-content: center;
+    background-color: white;
+    gap: 2px;
+}
+
+.cell {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.new-game {
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: #59c25c;
+    border-radius: 5px;
+    color: white;
+}
